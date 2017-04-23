@@ -14,7 +14,7 @@ var Component = __webpack_require__(0)(
   /* template */
   __webpack_require__(18),
   /* scopeId */
-  "data-v-40b75ab5",
+  "data-v-de83d064",
   /* cssModules */
   null
 )
@@ -367,15 +367,15 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 
 
 /* styles */
-__webpack_require__(10)
+__webpack_require__(9)
 
 var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(5),
   /* template */
-  __webpack_require__(17),
+  __webpack_require__(16),
   /* scopeId */
-  "data-v-3ef03fb2",
+  "data-v-19be16c0",
   /* cssModules */
   null
 )
@@ -389,15 +389,15 @@ module.exports = Component.exports
 
 
 /* styles */
-__webpack_require__(9)
+__webpack_require__(10)
 
 var Component = __webpack_require__(0)(
   /* script */
   __webpack_require__(6),
   /* template */
-  __webpack_require__(16),
+  __webpack_require__(17),
   /* scopeId */
-  "data-v-2123f63e",
+  "data-v-808bd1b0",
   /* cssModules */
   null
 )
@@ -407,6 +407,24 @@ module.exports = Component.exports
 
 /***/ }),
 /* 16 */
+/***/ (function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    ref: "container",
+    staticClass: "resumeEditor",
+    class: {
+      htmlMode: _vm.enableHtml
+    }
+  }, [(_vm.enableHtml) ? _c('div', {
+    domProps: {
+      "innerHTML": _vm._s(_vm.result)
+    }
+  }) : _c('pre', [_vm._v(_vm._s(_vm.result))])])
+},staticRenderFns: []}
+
+/***/ }),
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -423,24 +441,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "innerHTML": _vm._s(_vm.highlightedCode)
     }
   })])
-},staticRenderFns: []}
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    ref: "container",
-    staticClass: "resumeEditor",
-    class: {
-      htmlMode: _vm.enableHtml
-    }
-  }, [(_vm.enableHtml) ? _c('div', {
-    domProps: {
-      "innerHTML": _vm._s(_vm.result)
-    }
-  }) : _c('pre', [_vm._v(_vm._s(_vm.result))])])
 },staticRenderFns: []}
 
 /***/ }),
@@ -468,4 +468,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[7]);
-//# sourceMappingURL=app.36c2a526b24964fb0ff5.js.map
+//# sourceMappingURL=app.fa5cb0a7e740badd649a.js.map
